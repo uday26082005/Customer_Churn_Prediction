@@ -85,7 +85,6 @@ if st.button("Predict Churn"):
         input_data_df[column] = encoder.transform(input_data_df[column])
 
     prediction = loaded_model.predict(input_data_df)
-    pred_prob = loaded_model.predict_proba(input_data_df)
 
     st.subheader("🔮 Prediction Result")
     if prediction[0] == 1:
@@ -93,7 +92,6 @@ if st.button("Predict Churn"):
     else:
         st.markdown(f"<h3 style='color:green'>No Churn ✅</h3>", unsafe_allow_html=True)
 
-    st.write(f"Prediction Probability: {pred_prob}")
 
     # Retention strategies
     if prediction[0] == 1:
