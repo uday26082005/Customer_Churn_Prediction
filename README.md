@@ -5,11 +5,11 @@ The app also suggests **retention strategies** for customers predicted to churn.
 
 
 ## 🚀 Features
-- 🔮 **Churn Prediction** – Predicts if a customer is likely to leave.  
-- 💡 **Retention Strategies** – Provides personalized suggestions to reduce churn.  
-- 🖥 **Interactive Streamlit UI** – Easy-to-use sidebar for input.  
-- 📊 **Input Summary Tables** – Displays customer details in structured tables.  
-- 🛠 **Pre-trained Model** – Uses a pickled machine learning model (`customer_churn_model.pkl`) and encoders.  
+-  **Churn Prediction** – Predicts if a customer is likely to leave.  
+-  **Retention Strategies** – Provides personalized suggestions to reduce churn.  
+-  **Interactive Streamlit UI** – Easy-to-use sidebar for input.  
+-  **Input Summary Tables** – Displays customer details in structured tables.  
+-  **Pre-trained Model** – Uses a pickled machine learning model (`customer_churn_model.pkl`) and encoders.  
 
 
 ## 📂 Project Structure
@@ -49,11 +49,11 @@ The app also suggests **retention strategies** for customers predicted to churn.
 
 If a customer is predicted to churn, the app suggests strategies like:
 
-* 💰 Offer discounts or bundle services for high monthly charges
-* 📄 Promote long-term contracts with benefits
-* 🛠 Provide free or discounted Tech Support trial
-* 🔒 Give free Online Security for a limited time
-* 🤝 Assign dedicated support for senior citizens with low tenure
+*  Offer discounts or bundle services for high monthly charges
+*  Promote long-term contracts with benefits
+*  Provide free or discounted Tech Support trial
+*  Give free Online Security for a limited time
+*  Assign dedicated support for senior citizens with low tenure
 
 ## 🎯 Use Cases
 
@@ -65,11 +65,4 @@ If a customer is predicted to churn, the app suggests strategies like:
 
 This project is licensed under the MIT License.
 
-```
-
----
-
-👉 Now it’ll render properly with **headings, code blocks, and bullets aligned**.  
-
-Want me to also make this README **fancy with badges** (like Python, Streamlit, License, etc.) at the top?
 ```
