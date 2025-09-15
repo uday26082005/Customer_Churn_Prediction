@@ -3,7 +3,6 @@
 A **Streamlit web app** that predicts whether a customer is likely to churn based on their details, using a machine learning model trained on the **Telco Customer Churn dataset**.  
 The app also suggests **retention strategies** for customers predicted to churn.
 
----
 
 ## 🚀 Features
 - 🔮 **Churn Prediction** – Predicts if a customer is likely to leave.  
@@ -12,7 +11,6 @@ The app also suggests **retention strategies** for customers predicted to churn.
 - 📊 **Input Summary Tables** – Displays customer details in structured tables.  
 - 🛠 **Pre-trained Model** – Uses a pickled machine learning model (`customer_churn_model.pkl`) and encoders.  
 
----
 
 ## 📂 Project Structure
 ├── .devcontainer/
