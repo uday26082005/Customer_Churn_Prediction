@@ -65,4 +65,3 @@ If a customer is predicted to churn, the app suggests strategies like:
 
 This project is licensed under the MIT License.
 
-```
