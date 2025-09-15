@@ -1,17 +1,4 @@
-Perfect, Sneha 👍 I’ll clean up the formatting issues in your README and make it **GitHub-ready**.
-Main fixes:
-
-* Added spaces after `##` in headings.
-* Properly indented code blocks with closing backticks.
-* Added spacing before bullet points for readability.
-* Fixed consistency in section headings.
-
-Here’s your corrected version 👇
-
----
-
-```markdown
-# 📊 Customer Churn Prediction
+## 📊 Customer Churn Prediction
 
 A **Streamlit web app** that predicts whether a customer is likely to churn based on their details, using a machine learning model trained on the **Telco Customer Churn dataset**.  
 The app also suggests **retention strategies** for customers predicted to churn.
@@ -26,7 +13,7 @@ The app also suggests **retention strategies** for customers predicted to churn.
 
 
 ## 📂 Project Structure
-```
+```bash
 
 ├── .devcontainer/
 ├── app.py                     # Main Streamlit app
@@ -36,7 +23,7 @@ The app also suggests **retention strategies** for customers predicted to churn.
 ├── WA\_Fn-UseC\_-Telco-Customer-Churn.csv # Dataset
 └── README.md                  # Documentation
 
-````
+```
 
 ## 🛠 How to Run the App Locally
 
@@ -44,7 +31,7 @@ The app also suggests **retention strategies** for customers predicted to churn.
    ```bash
    git clone https://github.com/<your-username>/customer-churn-prediction.git
    cd customer-churn-prediction
-````
+   ```
 
 2. **Install dependencies**
 
