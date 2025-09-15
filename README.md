@@ -1,41 +1,60 @@
-# Customer_Churn_Prediction
-A Streamlit web app that predicts whether a customer is likely to churn based on their details, using a machine learning model trained on the Telco Customer Churn dataset.
-The app also suggests retention strategies for customers predicted to churn.
+# 📊 Customer Churn Prediction
 
-🚀 Features
+A **Streamlit web app** that predicts whether a customer is likely to churn based on their details, using a machine learning model trained on the **Telco Customer Churn dataset**.  
+The app also suggests **retention strategies** for customers predicted to churn.
 
-🔮 Churn Prediction – Predicts if a customer is likely to leave.
+---
 
-💡 Retention Strategies – Provides personalized suggestions to reduce churn.
+## 🚀 Features
+- 🔮 **Churn Prediction** – Predicts if a customer is likely to leave.  
+- 💡 **Retention Strategies** – Provides personalized suggestions to reduce churn.  
+- 🖥 **Interactive Streamlit UI** – Easy-to-use sidebar for input.  
+- 📊 **Input Summary Tables** – Displays customer details in structured tables.  
+- 🛠 **Pre-trained Model** – Uses a pickled machine learning model (`customer_churn_model.pkl`) and encoders.  
 
-🖥 Interactive Streamlit UI – Easy-to-use sidebar for input.
+---
 
-📊 Input Summary Tables – Displays customer details in structured tables.
+## 📂 Project Structure
+├── .devcontainer/
+├── app.py # Main Streamlit app
+├── customer_churn_model.pkl # Trained ML model
+├── encoders.pkl # Encoders for categorical variables
+├── requirements.txt # Dependencies
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv # Dataset
+└── README.md # Documentation
 
-🛠 Pre-trained Model – Uses a pickled machine learning model (customer_churn_model.pkl) and encoders.
+## How to Run the App Locally
 
-Project Structure
-├── .devcontainer/               # Dev container configuration
-├── app.py                       # Main Streamlit app
-├── customer_churn_model.pkl      # Trained ML model
-├── encoders.pkl                  # Encoders for categorical variables
-├── requirements.txt              # Dependencies
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dataset
-└── README.md                    # Project documentation
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/customer-churn-prediction.git
+   cd customer-churn-prediction
+   ```
+   
+2.**Install dependencies**
+  ```bash
+  pip install -r requirements.txt
+```
+
+3.**Run the streamlitapp**
+```bash
+streamlit run app.py
+```
+
+##📌 Example Retention Strategies
+-If a customer is predicted to churn, the app suggests strategies like:
+-💰 Offer discounts or bundle services for high monthly charges
+-📄 Promote long-term contracts with benefits
+-🛠 Provide free or discounted Tech Support trial
+-🔒 Give free Online Security for a limited time
+-🤝 Assign dedicated support for senior citizens with low tenure
+
+##🎯 Use Cases
+-Telecom companies to identify at-risk customers
+-Business analysts to understand churn patterns
+-Customer success teams to design retention campaigns
+
+##📜 License
+-This project is licensed under the MIT License.
 
 
-🎯 Use Cases
-
-Telecom companies to identify at-risk customers
-
-Business analysts to understand churn patterns
-
-Customer success teams to design retention campaigns
-
-📜 License
-
-This project is licensed under the MIT License.
-
-🤝 Contributing
-
-Feel free to fork this repository and submit pull requests to improve the project.
